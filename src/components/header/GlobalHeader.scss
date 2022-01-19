@@ -1,0 +1,16 @@
+.header{
+  position: relative;
+  .logo{
+    position: absolute;
+    left: 30px;
+    width: 130px;
+    height: 64px;
+    background: url("../../static/reactlogo.png") no-repeat 0 0 ;
+    background-size: cover;
+  }
+  .menu{
+    position: absolute;
+    left: 900px;
+
+  }
+}

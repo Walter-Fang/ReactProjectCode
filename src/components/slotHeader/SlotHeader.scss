@@ -1,0 +1,21 @@
+.NewsType {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  .titleRow {
+    width: 1002px;
+    border-bottom: 2px solid #C10D0C;
+    justify-content: space-between;
+    align-items: center;
+    .col1{
+      cursor: pointer;
+      text-align: left;
+    }
+    .col2{
+      cursor: pointer;
+      text-align: right;
+    }
+  }
+}

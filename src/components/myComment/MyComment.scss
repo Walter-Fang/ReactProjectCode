@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style:none;
+}
+.container{
+  display: flex;
+  text-align:center;
+
+  .MyComment{
+    display: flex;
+    width: 1480px;
+    height: 1000px;
+    margin:0 auto;
+    //border: 1px solid black;
+    background: rgb(204,204,204);
+    .comment{
+      width: 740px;
+      height: 100%;
+      //background: #00FFFF;
+      .title{
+        margin-top: 30px;
+        h1{
+          font-size: 35px;
+        }
+      }
+      .content{
+        display: flex;
+        margin: 40px auto;
+
+        justify-content: center;
+      }
+    }
+    .historyComment{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex: 1;
+      //background: hotpink;
+      justify-content: flex-start;
+    }
+  }
+}

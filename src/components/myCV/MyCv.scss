@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style:none;
+}
+.container {
+  display: flex;
+
+  .MyCv{
+    display: block;
+    margin:0 auto;
+    //border: 1px solid black;
+    width: 900px;
+    margin:0 auto;
+    //border: 1px solid black;
+    background: rgb(204,204,204);
+    .page{
+      display: block;
+      background: white;
+      width: 21cm;
+      height: 29.7cm;
+      display: block;
+      margin: 20px auto;
+      padding: 20px 25px;
+      box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+      .contact{
+        display: flex;
+        height: 195px;
+        width: 744px;
+        //border: 1px solid black;
+        .SpecificContact{
+          display: inline;
+          //border: 1px solid green;
+          width: 516px;
+          height: 195px;
+          font:italic 1em Georgia, serif;
+          text-align: left;
+          div{
+            margin: 18px 6px auto;
+            cursor: pointer;
+            span:hover{
+              font-size: 25px;
+            }
+          }
+
+
+        }
+        .photo{
+          display: flex;
+          flex: 1;
+          //border: 1px solid green;
+        }
+      }
+      .education{
+        margin: 5px auto;
+        display: flex;
+        height: 254px;
+        width: 744px;
+        //border: 1px solid black;
+
+        text-align: left;
+        .SpecificEdu{
+          display: inline;
+          //height: 210px;
+          font:italic 1em Georgia, serif;
+          text-align: left;
+          div{
+            margin: 5px;
+            cursor: pointer;
+            span:hover{
+              text-shadow: 1px 0 0 currentColor;
+            }
+          }
+          .title{
+            width: 710px;
+            margin-bottom: 5px;
+            border-bottom: 1px solid black;
+            h2{
+              margin-bottom: 3px;
+            }
+          }
+        }
+      }
+      .internship{
+        margin: 5px auto;
+        display: flex;
+        height: 160px;
+        width: 744px;
+        //border: 1px solid black;
+        text-align: left;
+        .SpecificIntern{
+          display: inline;
+          //height: 210px;
+          font:italic 1em Georgia, serif;
+          text-align: left;
+          div{
+            margin: 5px;
+            cursor: pointer;
+            span:hover{
+
+              text-shadow: 1px 0 0 currentColor;
+            }
+          }
+          .title{
+            width: 710px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid black;
+            h2{
+              margin-bottom: 3px;
+            }
+          }
+        }
+      }
+
+      .internation{
+        margin: 5px auto;
+        display: flex;
+        height: 133px;
+        width: 744px;
+        //border: 1px solid black;
+        text-align: left;
+        .SpecificInternation{
+          display: inline;
+          //height: 210px;
+          font:italic 1em Georgia, serif;
+          text-align: left;
+          div{
+            margin: 5px;
+            cursor: pointer;
+            span:hover{
+              text-shadow: 1px 0 0 currentColor;
+            }
+          }
+          .title{
+            width: 710px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid black;
+            h2{
+              margin-bottom: 3px;
+            }
+          }
+        }
+      }
+      .working{
+        margin: 5px auto;
+        display: flex;
+        height: 112px;
+        width: 744px;
+        //border: 1px solid black;
+        text-align: left;
+        .SpecificWorking{
+          display: inline;
+          //height: 210px;
+          font:italic 1em Georgia, serif;
+          text-align: left;
+          div{
+            margin: 5px;
+            cursor: pointer;
+            span:hover{
+
+              text-shadow: 1px 0 0 currentColor;
+            }
+          }
+          .title{
+            width: 710px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid black;
+            h2{
+              margin-bottom: 3px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+
+}

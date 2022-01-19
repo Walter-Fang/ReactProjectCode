@@ -1,0 +1,30 @@
+.NewsContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  .contentRow{
+    width: 1060px;
+
+    .contentCol{
+
+      height: 280px;
+      //border: 1px solid red;
+      .img{
+        //border: 1px solid black;
+        height: 200px;
+        img{
+          //width: 200px;
+          //height: 180px;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .title{
+        padding-top: 5px;
+      }
+
+
+    }
+  }
+}
